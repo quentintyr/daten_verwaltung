@@ -1,0 +1,36 @@
+{
+  "header": {
+    "comment": "eric tasks file for project Datenverwaltung",
+    "warning": "This file was generated automatically, do not edit.",
+    "saved": "2023-11-15, 20:07:41"
+  },
+  "ProjectScanFilter": "",
+  "Tasks": [
+    {
+      "summary": "WARNING: Any manual changes made to this file will be lost when pyuic6 is",
+      "description": "",
+      "priority": 1,
+      "lineno": 5,
+      "completed": false,
+      "created": 1700075237.9939466,
+      "type": 2,
+      "uid": "{90e2441f-7454-4632-a9bc-554feb7a7a24}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "E:\\OneDrive\\AdressenverwaltungGUI\\Ui_datenverwaltung.py"
+    },
+    {
+      "summary": "TODO: not implemented yet",
+      "description": "",
+      "priority": 1,
+      "lineno": 327,
+      "completed": false,
+      "created": 1700075239.330216,
+      "type": 1,
+      "uid": "{d6b860c4-6d54-4fd1-a08a-2aee6b2fcba7}",
+      "parent_uid": "",
+      "expanded": false,
+      "filename": "E:\\OneDrive\\AdressenverwaltungGUI\\datenverwaltung.py"
+    }
+  ]
+}

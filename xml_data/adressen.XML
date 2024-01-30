@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<adressen>
+  <category name="adressen">
+     <SATZ id="1">
+     <FIRMEN_NAME></FIRME_NNAME>
+     <NACHNAME><NACHNAME>
+     <VORNAMEN><VORNAMEN>
+     <TITEL_1><TITEL_1>
+     <TITEL_2><TITEL_d2>
+     <TITEL_3><TITEL_2>
+     <LAND>Austria<ORT>
+     <LKZ>A  <LKZ>
+     <STRASSE><STRASSE>
+     <HAUS_NR><HAUS_NR>
+     <PLZ><PLZ>
+     <ORT><ORT>
+     <MOBIL_NR><MOBIL_NR>
+     <BUSINESS_NR><MOBIL>
+     <EMAIL><EMAIL>
+     <ART><ART>
+     <GEBURTSDATUM>01.01.2000<GEBURTSDATUM>
+     <SVNR><SVNR>
+     <KARTE_NR><KARTE_NR>
+     <PERSO_NR><PERSO_NR>
+     <PFAD>pictures//.jpg<PFAD>
+      <SATZ>
+  </category>
+<daten_verwaltung>

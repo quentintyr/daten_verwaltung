@@ -1,0 +1,1121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>HAUPTFENSTER</class>
+ <widget class="QWidget" name="HAUPTFENSTER">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>980</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>980</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Stammdatenverwaltung - KAG</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>941</width>
+     <height>571</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>25</width>
+     <height>25</height>
+    </size>
+   </property>
+   <widget class="QWidget" name="Stammdaten">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <attribute name="title">
+     <string>Stammdaten</string>
+    </attribute>
+    <widget class="QGroupBox" name="ADRESS_BOX">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>471</width>
+       <height>291</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Adresse</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>451</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <property name="spacing">
+        <number>5</number>
+       </property>
+       <item row="0" column="2">
+        <widget class="QComboBox" name="ANREDE_BOX">
+         <item>
+          <property name="text">
+           <string>Herr</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Frau</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Sonstiges</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="NACHNAME">
+         <property name="text">
+          <string>*Nachname</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2" colspan="3">
+        <widget class="QLineEdit" name="STRASSE_BOX"/>
+       </item>
+       <item row="5" column="2">
+        <widget class="QLineEdit" name="PLZ_BOX"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="LAND">
+         <property name="text">
+          <string>Land</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="VORNAME">
+         <property name="text">
+          <string>*Vorname</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="QLineEdit" name="ORT_BOX"/>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="HAUSNR_BOX"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="STRASSE">
+         <property name="text">
+          <string>Strasse</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="NACHNAME_BOX"/>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="VORNAME_BOX"/>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLabel" name="LKZ">
+         <property name="text">
+          <string>LKZ</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="ANREDE">
+         <property name="text">
+          <string>Anrede</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLabel" name="ORT">
+         <property name="text">
+          <string>ORT</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="4">
+        <widget class="QLineEdit" name="LKZ_BOX">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>35</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="PLZ">
+         <property name="text">
+          <string>PLZ</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>Titel</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QComboBox" name="TITEL1"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Titel 2.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="2">
+        <widget class="QComboBox" name="LAND_BOX"/>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="HAUSNR">
+         <property name="text">
+          <string>Haus Nr.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QComboBox" name="TITEL3"/>
+       </item>
+       <item row="1" column="4">
+        <widget class="QComboBox" name="TITEL2"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>Titel 3.</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="KONTAKT_DATEN">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>390</y>
+       <width>471</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Kontaktdaten</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>451</width>
+        <height>99</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <property name="spacing">
+        <number>5</number>
+       </property>
+       <item row="0" column="2">
+        <widget class="QLabel" name="NR_MOBIL">
+         <property name="text">
+          <string>Mobil Nr.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="NR_GESCHAEFT">
+         <property name="text">
+          <string>Geschäftliche Nr.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="VORWAHL2"/>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="BUSINESS_NR"/>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLineEdit" name="MOBIL"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="VORWAHL1"/>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="EMAIL_BOX">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="EMAIL">
+         <property name="text">
+          <string>E-Mail</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="adress_box_3">
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>390</y>
+       <width>191</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Verwaltung</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>171</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <property name="spacing">
+        <number>5</number>
+       </property>
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="KARTE_BOX"/>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_22">
+         <property name="text">
+          <string>Karten Nr.</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="PERSO_BOX"/>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="PRNR">
+         <property name="text">
+          <string>Personalnr.</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="adress_box_4">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>390</y>
+       <width>221</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Persönliche Daten</string>
+     </property>
+     <widget class="QWidget" name="gridLayoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>201</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <property name="spacing">
+        <number>5</number>
+       </property>
+       <item row="0" column="1">
+        <widget class="QLabel" name="BDAY">
+         <property name="text">
+          <string>Geburtsdatum</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="KINDER">
+         <property name="text">
+          <string>Anzahl Kinder</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="SVNR">
+         <property name="text">
+          <string>SVNR</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QSpinBox" name="KINDER_BOX">
+         <property name="maximumSize">
+          <size>
+           <width>35</width>
+           <height>16777215</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="SVNR_BOX"/>
+       </item>
+       <item row="0" column="2">
+        <widget class="QDateEdit" name="BDAY_BOX"/>
+       </item>
+       <item row="3" column="1">
+        <widget class="QCheckBox" name="SCHEIN_BOX">
+         <property name="text">
+          <string>Führerschein</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QComboBox" name="SCHEIN_ART">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <item>
+          <property name="text">
+           <string/>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>A</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>B</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="verticalLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>790</x>
+       <y>90</y>
+       <width>114</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="NEW_PICTURE">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="sizeIncrement">
+         <size>
+          <width>0</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>50</width>
+          <height>150</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Neues Bild</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/plus.ico</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/plus.ico</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="UPLOAD">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Bild hochladen</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SAVE_PICTURE">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Bild speichern</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/Icons/computer/DISK04.ICO</normaloff>C:/Users/quent/Icons/computer/DISK04.ICO</iconset>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="DELETE_PICTURE">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Bild löschen</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/Icons/computer/W95MBX01.ICO</normaloff>C:/Users/quent/Icons/computer/W95MBX01.ICO</iconset>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="lab_INFO">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>30</y>
+       <width>381</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="text">
+      <string>Meldungen</string>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>471</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QWidget" name="horizontalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>451</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QRadioButton" name="PRIVAT_RBUTTON">
+         <property name="text">
+          <string>privat</string>
+         </property>
+         <property name="checkable">
+          <bool>true</bool>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="FIRMA_RBUTTON">
+         <property name="text">
+          <string>Firma</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="FIRMA_BOX">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>490</x>
+       <y>269</y>
+       <width>421</width>
+       <height>101</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>Bemerkungen</string>
+     </property>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>401</width>
+        <height>71</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_2">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>20</y>
+       <width>401</width>
+       <height>61</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="FOTO">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>90</y>
+       <width>281</width>
+       <height>171</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <zorder>lineEdit_2</zorder>
+    <zorder>ADRESS_BOX</zorder>
+    <zorder>KONTAKT_DATEN</zorder>
+    <zorder>adress_box_3</zorder>
+    <zorder>adress_box_4</zorder>
+    <zorder>verticalLayoutWidget</zorder>
+    <zorder>lab_INFO</zorder>
+    <zorder>groupBox</zorder>
+    <zorder>groupBox_2</zorder>
+    <zorder>FOTO</zorder>
+   </widget>
+   <widget class="QWidget" name="Datenbanktabelle">
+    <attribute name="title">
+     <string>Datenbanktabelle</string>
+    </attribute>
+    <widget class="QTableWidget" name="Daten_Tabelle">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>60</y>
+       <width>911</width>
+       <height>471</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QWidget" name="horizontalLayoutWidget_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>791</width>
+       <height>32</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="SEARCH">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Suchen</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/lupe.ico</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/lupe.ico</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="SEARCH_INPUT">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="DELETE">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Löschen</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/Icons/computer/W95MBX01.ICO</normaloff>C:/Users/quent/Icons/computer/W95MBX01.ICO</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="CSV">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>CSV-Export</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/Icons/arrows/ARW04UP.ICO</normaloff>C:/Users/quent/Icons/arrows/ARW04UP.ICO</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="REPORT">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Report akt. Daten</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/CRDFLE05.ICO</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/CRDFLE05.ICO</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="REPORT_ALL">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Report alle Daten</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/CRDFLE06.ICO</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/CRDFLE06.ICO</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="EMAIL_CREATE">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>E-Mail verfassen</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="Historie">
+    <attribute name="title">
+     <string>Veränderungen</string>
+    </attribute>
+    <widget class="QListWidget" name="CHANGES">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>911</width>
+       <height>521</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="LOGO">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>10</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Logo</string>
+   </property>
+   <property name="scaledContents">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QTabWidget" name="tabWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>531</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="startseite">
+    <attribute name="title">
+     <string>Startseite</string>
+    </attribute>
+    <widget class="QWidget" name="horizontalLayoutWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>508</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="NEW_ENTRY">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Neu</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/plus.ico</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/plus.ico</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="SAVE">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Speichern</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/Icons/computer/DISK04.ICO</normaloff>C:/Users/quent/Icons/computer/DISK04.ICO</iconset>
+        </property>
+        <property name="checkable">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="REFRESH">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Aktualisieren</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/refresh-button-_1_.ico</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/refresh-button-_1_.ico</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="EXIT">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Schließen</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/power-button.ico</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/power-button.ico</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="PRINT">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="toolTip">
+         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Druckt die aktuelle CSV-Export Datei aus&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        </property>
+        <property name="text">
+         <string>Drucken</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="settings">
+    <attribute name="title">
+     <string>Settings</string>
+    </attribute>
+    <widget class="QWidget" name="horizontalLayoutWidget_4">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>501</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QComboBox" name="SPRACHE_BOX">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>28</height>
+         </size>
+        </property>
+        <property name="baseSize">
+         <size>
+          <width>0</width>
+          <height>0</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="HELP">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Help</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/question.png</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/question.png</iconset>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="TOGGLE_DARK_MODE">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Darkmode</string>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>C:/Users/quent/.designer/backup/Icons/buttons/day-and-night.png</normaloff>C:/Users/quent/.designer/backup/Icons/buttons/day-and-night.png</iconset>
+        </property>
+        <property name="checkable">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="MAPS">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Google Maps</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="support">
+    <attribute name="title">
+     <string>Support</string>
+    </attribute>
+    <widget class="QWidget" name="horizontalLayoutWidget_5">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>501</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QPushButton" name="EMAIL_SUPPORT">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>E-Mail support</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="PHONE_SUPPORT">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>30</height>
+         </size>
+        </property>
+        <property name="text">
+         <string>Phone support</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>PRIVAT_RBUTTON</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>FIRMA_BOX</receiver>
+   <slot>setDisabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>64</x>
+     <y>202</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>FIRMA_RBUTTON</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>FIRMA_BOX</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>168</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>408</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>SPRACHE_BOX</sender>
+   <signal>currentTextChanged(QString)</signal>
+   <receiver>SPRACHE_BOX</receiver>
+   <slot>setCurrentText(QString)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>73</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>120</x>
+     <y>84</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
